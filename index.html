@@ -6,9 +6,26 @@
  <meta name="renderer" content="webkit">
  <title>礙睏檢測</title>
  <link rel="icon" href="images/favicon.ico.png"><!-- icon要改 -->
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!-- 自己的CSS放下面，權重較重，可以用CSS去更改 -->
+  <link rel="stylesheet" href="style_index.css">
 </head>
 <body>
- <h1>好寶寶型</h1>
+    <header>
+        <h1 class="logo">
+            <img src="images/logo_large_logo.png" alt="礙睏檢測">
+        </h1>
+        <div class="starto">
+            <a href="https://wilannie.github.io/sleepy321.github.io/">檢測GO!GO!</a>
+    </header>
+
+    <!-- jQuery原生碼 CDN -->
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <!-- smoove js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- 自訂的JS要放最下面，因為要先載入jQuery原生碼才能執行下面步驟 -->
+    <script src="./script/script_index.js"></script>
 
 </body>
 </html>
