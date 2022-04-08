@@ -54,10 +54,10 @@ header .starto{
     margin: auto;
     cursor: pointer;
 }
-.starto:hover {
+.starto{
     animation: rotate 0.7s ease-in-out both;
   }
-.starto:hover a {
+.starto a{
     animation: storm 0.7s ease-in-out both;
     animation-delay: 0.06s;
   }
