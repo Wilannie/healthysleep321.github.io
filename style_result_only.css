@@ -1,0 +1,313 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+/* 國際編碼一定要在第一行，字體一定要在第二行，前面不可以加任何註解或內容 */
+
+body{
+    font-family: Helvetica, Arial,"黑體-繁","Heiti TC","微軟正黑體","Microsoft JhengHei",sans-serif;
+    background-color: #0C1D44;
+    height: 100%;
+    /* 以下四個禁止複製的動作 */
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* height: 100vh; */
+}
+img{
+    display: block;
+    width: 100%;
+}
+button{
+    align-items: center;
+    border-radius: 5px;
+    background: #C1DFE8;
+    /* padding: 6px 0; */
+    /* width: 20%; */
+    /* margin: 65px auto; */
+    cursor: pointer;
+    border-color: aqua;
+}
+span{
+  color: #0C1D44;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+}
+/* ----------header---------- */
+header .logo{
+    width: 22%;
+    display: flex;
+    left: auto;
+    right: auto;
+    margin: 30px auto;
+    /* position: relative; */
+}
+.resultbox, .imgbox, .funcbox, .exbox{
+  display: flex;
+  flex-direction: column;
+}
+/* header h2{
+    display: flex;
+    justify-content: center;
+    color: #C1DFE8;
+    position: absolute;
+    top: 5vh;
+} */
+
+header p{
+    display: flex;
+    justify-content: center;
+    color: #c1dfe880;
+}
+meter {
+    width: 200px;
+}
+/* ----------main---------- */
+/* main{
+    position: relative;
+    display: inline;
+    height: 80vh;
+} */
+/* #re{
+    font-size: 4vmin;
+    font-weight: 300;
+    color: #C1DFE8;
+    
+}
+.information{
+    font-size: 2vmin;
+    font-weight: 200;
+    color: #C1DFE8;
+} */
+/* ----------resultbox---------- */
+.text-1, .text-2, .text-3{
+  display: flex;
+}
+/* .text-2,  */
+.text-1{
+  display: flex;
+  justify-content: center;
+  color: #C1DFE8;
+}
+.justify-1{
+  display: block;
+  padding-bottom: 10px;
+}
+#text-color{
+  color: #C1DFE8;
+  font-size: x-large;
+}
+.text-1 span{
+  padding: 20px auto;
+}
+.justify-4{
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 12px;
+}
+.text-2{
+  display: flex;
+  justify-content: center;
+  color: #C1DFE8;
+}
+/* .demo{ */
+  /* display: block; */
+  /* padding-bottom: 30px; */
+  /* display: flex; */
+  /* align-self: center; */
+  /* border: #D1BC7B 1px solid; */
+  /* align-items: center; */
+/* } */
+/* .func-1{
+  display: inline-flex;
+  flex-direction: column;
+  
+} */
+.text-3{
+  justify-content: center;
+}
+/* ----------imgbox---------- */
+.block{
+  display: flex;
+  flex-direction: column;
+}
+.block img{
+  width: 100%;
+  height: 100%;
+}
+.text-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#camera{
+  display: inline;
+  border: #C1DFE8 0.5px solid;
+}
+.cam-1, .cam-2{
+  display: flex;
+  flex-direction: row;
+}
+#camera span{
+  color: #C1DFE8;
+  /* line-height: 10px; */
+  padding: 5px;
+}
+/* ----------funcbox---------- */
+.func-2{
+  display: block;
+  padding: 25px 25%;
+  
+}
+.justify-2{
+  display: flex;
+  justify-content: space-between;
+}
+.funcbox button a{
+  text-decoration: none;
+}
+.funcbox .justify-2 button a:visited{
+  color: #0C1D44;
+}
+/* ----------exbox---------- */
+.justify-3{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #D1BC7B 2px solid;
+}
+.exhibition{
+  display: flex;
+  flex-direction: row;
+}
+.text-5{
+  flex: 2.5;
+  align-self: center;
+  /* padding: auto 0; */
+  
+}
+.fa-solid{
+  color: #D1BC7B;
+  font-size: 37px;
+  /* width: 30%; */
+}
+/* .fa-bullhorn{
+  width: 40%;
+} */
+#say{
+  align-self: center;
+  /* padding: auto 0; */
+}
+/* .icon-svg{
+  display: block;
+
+} */
+.text-6{
+  flex: 5;
+  align-self: center;
+}
+#title-word{
+  padding-bottom: 10px;
+}
+#title-word span{
+  /* font-size: 16px; */
+  color: #D1BC7B;
+  text-decoration-line: underline;
+  text-decoration-color: #D1BC7B;
+}
+.word{
+  color: #D1BC7B;
+}
+.text-7{
+  /* position: relative; */
+  flex: 2.5;
+  align-self: flex-end;
+}
+/* .icon-svg{ */
+  /* position: absolute; */
+  /* right: 0;
+  bottom: 0; */
+/* } */
+.icon-svg nav ul{
+  list-style-type: none;
+}
+.icon li img{
+  width: 90%;
+  /* align-self: flex-end; */
+}
+
+/* ----------footer---------- */
+.btn_next{
+    /* position: relative; */
+    /* top: 5vh; */
+    
+    align-items: center;
+    border-radius: 25px;
+    background: #C1DFE8;
+    padding: 6px 0;
+    width: 20%;
+    margin: 65px auto;
+    cursor: pointer;
+}
+
+.btn_next a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* transition: 0.5s; */
+    font-size: 4vmin;
+    font-weight: 500;
+    color: #0C1D44;
+    cursor: pointer;
+    /* letter-spacing: .1rem; 字距 */
+    /* font-size: 1rem; */
+}
+  
+/* ----------footer---------- */
+footer{
+    /* position: absolute; */
+    /* bottom: 0; */
+    display: flex;
+    flex-direction: column;
+
+}
+.footerbox{
+    position: relative;
+    display: block;
+    align-items: center;
+    /* background-color: #D2AD9F; */
+    /* border: solid 5px #FFF; */
+}
+
+footer nav .icon{
+    /* margin-right: 20px; */
+    /* position: absolute;  */
+    /* margin: auto; */
+    right: 10px;
+    top: 100px;
+    list-style-type: none; /* 去掉點點 */
+    z-index: 999;
+    cursor: pointer;
+}
+.copyright{
+    display: flex;
+    color: #C1DFE8;
+    font-size: 0.5rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+#demo{
+    font-size: 3vmin;
+    font-weight: 300;
+    color: #4CAF50;
+    /* cursor: pointer; */
+}

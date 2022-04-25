@@ -7,34 +7,99 @@
  <title>礙睏檢測</title>
  <link rel="icon" href="images/favicon.ico.png"><!-- icon要改 -->
   <!-- font awesome -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
   <!-- 自己的CSS放下面，權重較重，可以用CSS去更改 -->
-  <link rel="stylesheet" href="style_index.css">
+  <link rel="stylesheet" href="style_result_only.css">
 </head>
 <body>
-    <header>
-        <h1 class="logo">
-            <img src="images/logo_large_logo.png" alt="礙睏檢測">
-        </h1>
-        <div class="title">測你的礙睏類型</div>
-        <div class="starto">
-            <a href="test_1.html">點擊GO!GO!</a>
-        </div>
-        <div class="box_monster">
-            <!-- <figure id="monster"><img src="/images/monster_new_small.png" alt="三隻合影"></figure> -->
-            <figure id="monster"><img src="images/monster-11.png" alt="合影"></figure>
-            <!-- <figure id="light_monster"><img src="images/light.png" alt="淺淺"></figure> -->
-            <!-- <figure id="sleepy_monster"><img src="images/sleepy.png" alt="困睏"></figure> -->
-        </div>
-        
-    </header>
-
+    <div class="wrapper">
+         <header>
+             <h1 class="logo">
+                 <img src="images/logo_large_logo.png" alt="礙睏檢測">
+             </h1>
+         </header>
+         <main>
+             <div class="resultbox">
+                 <div class="text-1">
+                     <div class="justify-1"><span id="text-color">檢測結果</span></div>
+                 </div>
+                 <div class="text-2">
+                     <div class="demo"><p id="demo"></p></div>
+                 </div> <!-- 要置中 -->
+                 <div class="text-3">
+                     <!-- <div class="func-1"> -->
+                         <!-- <div class="justify-1">
+                            <button><span>點我展開</span></button>
+                         </div> -->
+                         <!-- <button>查看解說</button> -->
+                     <!-- </div> -->
+                 </div>
+             </div>
+             <div class="imgbox">
+                 <div class="text-4">
+                     <div id="camera">
+                         <!-- <div class="cam-1"><span>＊</span></div> -->
+                         <div class="cam-2"><span>截圖並分享--◣也可以滑到下面繼續測你有哪種礙睏傾向，哪個問題最干擾你，優先解決哪一型問題</span></div>
+                     </div>
+                </div>
+                 <div class="block">
+                    <img src="images/type8.png" alt="請稍等">
+                 </div>
+             </div>
+             <div class="funcbox">
+                 <div class="func-2">
+                     <div class="justify-2">
+                        <button><a href="https://wilannie.github.io/healthysleep321.github.io/">測礙睏傾向</span></button>
+                        <button>
+                            <a href="https://liff.line.me/1654883656-XqwKRkd4?aid=178udpaf&cid=090884CC290C4B94BB42C10CBDE18815">
+                            集line點數</a>
+                        </button>
+                        </div>
+                 </div>
+             </div>
+             <div class="exbox">
+                 <div class="justify-3">
+                    <div class="exhibition">
+                        <div class="text-5">
+                           <div id="say"><i class="fa-solid fa-bullhorn"></i></div>
+                        </div>
+                        <div class="text-6">
+                           <div class="word">
+                               <div id="title-word">
+                                   <span>展覽資訊</span>
+                               </div>
+                               校內展 黑天鵝展示廳<br>
+                               5/2~5/6<br>
+                               校外展 松山文創園區<br>
+                               5/13~5/15<br>
+                           </div>
+                        </div>
+                        <div class="text-7">
+                            <div class="icon-svg">
+                               <nav>
+                                   <ul class="icon">
+                                       <li><a href="https://www.facebook.com/profile.php?id=100076115055172"><img src="images/icon-fb.svg" alt="連結至Facebook"></a></li>
+                                       <li><a href="https://instagram.com/i_sleep.321?igshid=YmMyMTA2M2Y="><img src="images/icon-ig.svg" alt="連結至Instagram"></a></li>
+                                   </ul>
+                               </nav>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 
+             </div>
+         </main>
+         <footer>
+             <div class="copyright">淡江大學資訊傳播學系第21屆畢業製作《礙睏》 © 2022</div>
+         </footer>
+    </div>
+    
     <!-- jQuery原生碼 CDN -->
     <script src="./script/jquery-3.6.0.min.js"></script>
     <!-- smoove js CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
     <!-- 自訂的JS要放最下面，因為要先載入jQuery原生碼才能執行下面步驟 -->
-    <script src="./script/script_index.js"></script>
+    <!-- <script src="./script/script_test.js"></script> -->
 
 </body>
 </html>
